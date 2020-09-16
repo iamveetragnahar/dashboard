@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>chat Dropdown</title>
+	<link rel="stylesheet" href="chat.css">
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".chat_icon .fa-comment-alt").click(function(){
+				$(".dropdown").toggleClass("active");
+			})
+		});
+	</script>
+</head>
+<body>
+	
+<div class="wrapper">
+	<div class="chat_wrap">
+		<div class="chat_icon">
+			<i class="fas fa-comment-alt"></i>
+		</div>
+		<div class="dropdown">
+			<div class="notify_item">
+				<div class="notify_img">
+					<img src="a.png" alt="profile_pic" style="width: 50px">
+				</div>
+				<div class="notify_info">
+					<p><b>Veetrag Nahar</b></p>
+					<span class="notify_time">Hey</span>
+				</div>
+			</div>
+			<div class="notify_item">
+				<div class="notify_img">
+					<img src="a.png" alt="profile_pic" style="width: 50px">
+				</div>
+				<div class="notify_info">
+					<p><b>Himanshu Shrivasatv</b></p>
+					<span class="notify_time">Hello</span>
+				</div>
+			</div>
+			<div class="notify_item">
+				<div class="notify_img">
+					<img src="a.png" alt="profile_pic" style="width: 50px">
+				</div>
+				<div class="notify_info">
+					<p><b>Ashita Neema</b></p>
+					<span class="notify_time">ready for class</span>
+				</div>
+			</div>
+			<div class="notify_item">
+				<div class="notify_img">
+					<img src="a.png" alt="profile_pic" style="width: 50px">
+				</div>
+				<div class="notify_info">
+					<p><b>Virendra Carpenter</b></p>
+					<span class="notify_time">Hey</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
